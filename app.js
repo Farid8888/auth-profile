@@ -16,7 +16,7 @@ async function start(){
         
       })
       app.listen(PORT,()=>{
-        console.log(`vvkmgkbmgfkl ${PORT}`)
+       
     })
 
     }
