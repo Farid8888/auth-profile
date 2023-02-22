@@ -1,0 +1,43 @@
+{
+  "name": "profileapp",
+  "version": "1.0.0",
+  "description": "Profile App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "clientInstall":"npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "profile",
+    "react"
+  ],
+  "author": "Farid",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3",
+    "react-redux": "^8.0.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farid8888/profile-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Farid8888/profile-App/issues"
+  },
+  "homepage": "https://github.com/Farid8888/profile-App#readme"
+}

@@ -1,0 +1,13 @@
+.people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.244);
+}
+
